@@ -1,0 +1,41 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()
+end
+})
+
+-- Add Blade Ball script (bedol hub)
+local blade_ball_button = gamesPanel:CreateButton({
+Name = "Blade Ball",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/SourceLua/main/Blade_Ball.lua"))()
+end
+})
+
+-- Add Natural Disaster Survival script
+local natural_disaster_survival_button = gamesPanel:CreateButton({
+Name = "Natural Disaster Survival",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub"))()
+end
+})
+
+-- Add Meep City script
+local meep_city_button = gamesPanel:CreateButton({
+Name = "Meep City",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/Meepcity"))()
+end
+})
+
+-- Add Royale High School script
+local royale_high_school_button = gamesPanel:CreateButton({
+Name = "Royale High School",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/ROYAL-HIGH/main/SCRIPT.md"))()
+end
+})
+
+-- Add more games and scripts here...
+end
+
+-- Load the script hub
+window:Load()
